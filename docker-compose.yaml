@@ -25,6 +25,6 @@ services:
     volumes:
       - d-mariadb:/var/lib/mysql  
 
-networks:
+networks:               #create docker network
   owncloud-network: 
     driver: bridge
