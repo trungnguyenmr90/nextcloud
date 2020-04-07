@@ -1,5 +1,5 @@
 version: '3.3'
-volumes:
+volumes:          #define volume for docker
   d-owncloud:
   d-mariadb:
 services:
